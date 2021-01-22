@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'Raleway';
+	src: url('fonts/Raleway-Regular.ttf');
+}
+
+/*Header*/
+
+#logo                                                                       
+{
+    width: 100px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+#banniere
+{
+    display: flex; 
+    justify-content: space-between;
+    width: 100%;
+}
+
+#menu 
+{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-right: 75px;
+}
