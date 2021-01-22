@@ -20,6 +20,15 @@
     width: 100%;
 }
 
+header a                                    
+{
+    margin-left: 15px;
+    padding-right:25px;
+    padding-left: 25px;
+    color: black;
+    text-decoration: none;
+}
+
 #menu 
 {
     display: flex;
@@ -27,3 +36,22 @@
     align-items: center;
     margin-right: 75px;
 }
+
+#menu a:hover                                                                                                                       
+{
+    border-top: 2px #0065FC solid;
+    padding-top: 50px;
+    color: #0065FC;
+}
+
+#inscription 
+{
+    color: #0065FC;
+}
+
+#titre
+{
+    margin-left: 50px;
+}
+
+/*Body*/
