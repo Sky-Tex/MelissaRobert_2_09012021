@@ -54,4 +54,123 @@ header a
     margin-left: 50px;
 }
 
+#titre p                                    
+{
+    font-size: 16px;                                                          
+    margin-left: 0px;
+}
+
+#recherche
+{
+    display: flex;
+}
+
+#localisation                                                 
+{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;    
+    background-color: #F2F2F2;                                                                                                                                        
+    border: 1px solid #F2F2F2;
+    border-radius: 20px 0 0 20px;
+    font-size: 20px;                
+    line-height: 50px;                                                                                                                  
+}     
+
+form
+{
+    width: auto;
+    display: flex;
+}
+
+#search                                                     
+{
+    width: 230px;
+    height: 50px;
+    padding-left: 15px;
+    border: 1px solid #F2F2F2;
+    font-size: 20px;     
+}
+
+#bouton                                                     
+{    
+    width: 135px;
+    height: 50px;
+    border: 1px solid #0065FC;
+    border-radius: 0 20px 20px 0;
+    background-color: #0065FC;
+    color: white;
+    font-size: 18px;                                                                                                                                       
+}
+
+#filtres                                                                
+{
+    width: 100%;
+    display: flex;
+    vertical-align: middle;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+#filtres h2 
+{
+     font-size: 18px;
+}
+
+#filtres ul                                                          
+{
+    width: 150%;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+#filtres a
+{
+    margin-left: 0px;
+}
+
+#filtres li 
+{
+    height: 50px;
+    margin-right: 25px;
+    border: 2px solid #F2F2F2;
+    border-radius:25px;
+    list-style-type: none;
+ }
+
+#filtres i                                                      
+{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-left: -30px;
+    margin-top: -2px;
+    border: 1px solid #DEEBFF;
+    border-radius: 25px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    font-size: 20px;
+    line-height:50px;
+}
+
+#filtres li:hover
+{
+    background-color:#DEEBFF;
+}
+
+#loupe                                                      
+{
+    color:white;
+}
+
 /*Body*/
+
+a                                                                                 
+{
+    color: black;
+    text-decoration: none;
+}
