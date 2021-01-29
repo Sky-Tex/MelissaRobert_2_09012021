@@ -174,3 +174,438 @@ a
     color: black;
     text-decoration: none;
 } 
+
+.titre, .price, .nomspop, #section_activites p, footer h3, #inscription, #search, #bouton, #filtres, #afficher                         
+{
+    font-weight: bold;
+}
+
+#info                                                                                 /*ligne information*/
+{
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+#info p 
+{
+    margin-left:10px;
+    padding-left: 0.5%;
+}
+#info i
+{                                  
+    margin-left: 50px;
+    color:#0065FC;
+    font-size: 15px;
+}
+.fas                                                            /*étoiles*/
+{
+    color: #0065FC;
+    font-size: 10px;
+}
+.fas2
+{
+    color:#F2F2F2;
+}
+
+#partie_haute                                        /*section1 +section populaires*/
+{
+    width: 100%;
+    display: flex;
+    margin: 35px 50px 60px 50px;
+}
+/*section 1*/
+#section_one                                        /*titre articles et bouton*/
+{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #F2F2F2;
+    border-radius: 3%;
+    background-color: #F2F2F2;
+}
+#section_one h2                                    /*titre*/
+{
+    width : 96%;
+    height:4%;
+    margin-left: 40px;
+    margin-top:40px;
+}
+#groupe_hebergement                      /*ensemble articles*/
+{
+    width: 92%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+.hebergement                                /*par article*/ 
+{
+    width: 245px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 5%;
+    border: 1px solid white;
+    border-radius: 8%;
+    background-color: white;
+    box-shadow: 3px 3px 5px rgb(97,97,97);
+}
+#section_one figure                                         /*image + texte*/
+{
+    width: 235px;
+    height:190px;
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-right:4px;
+    border-radius: 9%;
+    overflow: hidden;
+}
+#section_one figcaption                                         /*texte + étoiles 1ere ligne*/
+{
+    position: relative;
+    top: -53px;
+    padding-left: 10px;
+    border: 1px solid white;   
+    background-color: white;                                                                   
+}
+.img                                                                     /*images 1ere ligne*/ 
+{
+    width: 245px;
+    position: relative;
+    top: -25px;
+    left: -5px;
+    border-radius: 8%;
+}
+#section_one #hotel_mer                                     /*texte + étoiles 2e ligne*/
+{
+    position: relative;
+    top: -115px;
+    padding-left: 10px;
+    border: 1px solid white;
+    background-color: white;
+}
+#section_one #panier 
+{
+    position: relative;
+    top: -25px;
+    padding-left: 10px;
+    border: 1px solid white;
+    background-color: white;
+}
+#section_one #hotel_amina 
+{
+    position: relative;
+    top: -255px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    background-color: white;
+}
+.img_mer                                            /*images 2e ligne*/ 
+{
+    width: 245px;
+    position: relative;
+    top: -50px;
+    left: -5px;
+    border-radius: 8%;
+}
+.img_panier 
+{
+    width: 245px;
+    position: relative;
+    top: -15px;
+    left: -5px;
+}
+.img_amina 
+{
+    width: 245px;
+    position: relative;
+    top: -125px;
+    left: -5px;
+    border-radius: 8%;
+}
+#section_one p                                  /*texte des hébergements*/
+{
+    margin: auto;
+    margin-top: 8px;
+    font-size: 14px;
+}
+#afficher                                        /*bouton afficher*/
+{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #F2F2F2;
+    font-size: 20px;
+    text-align: left;
+}
+/*section populaires*/
+#section_populaires                                         /*titre articles et fleche*/ 
+{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    margin-left: 40px;
+    border: 1px solid #F2F2F2;
+    border-radius: 3%;
+    background-color: #F2F2F2;
+}
+#section_populaires h2                                   /*titre*/ 
+{
+     width: 80%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 40px 40px 25px 35px;
+     font-size: 24px;
+}
+#fleche                                                             /*icone*/ 
+{
+    color: black;
+    font-size: 20px;
+}
+.pop                                                                   /*par article*/ 
+{
+    width: 80%;
+    height: 145px;
+    margin: auto;
+    margin-left: 35px;
+    border: 1px solid white;
+    border-radius: 8%;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 3px 3px 5px rgb(97,97,97);
+}
+#section_populaires figure                              /*texte + image*/
+{
+    width: 335px;
+    height: 135px;
+    margin: 4px 4px 4px 4px;                                                                          
+    border: 1px solid white;
+    border-radius: 8%;
+    overflow: hidden;
+}
+#section_populaires figcaption                                  /*hotel du matin--texte*/
+{
+    width: 60%;
+    height: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -145px;
+    right: -130px;
+    background-color: white;        
+}
+#section_populaires #hotes                                  /*2e--texte*/
+{
+    top: -160px;
+}
+#section_populaires #bleu_blanc                           /*3e--texte*/
+{
+    top: -210px;
+}
+.nomspop                                                                /*noms hôtel*/
+{
+    margin-left: 5%;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.textepop                                                               /*texte hôtel*/
+{
+    margin-top: -5px;
+    margin-left: 5%;
+    font-size:14px;
+}
+.price
+{
+    font-weight:bold;
+}
+.etoiles                                                                     /*étoiles*/
+{
+    margin-left: 5%;
+}
+.img_pop                                            /*images hotel du matin et chambre d'hôtes*/                                       
+{
+    width: 210px;
+    float: left;
+    position: relative;
+    top: -5px;
+    left: -40px;
+    border-radius: 8%;
+}
+.img_pop2                                                               /*image hôtel tout bleu et blanc*/
+{
+    width: 140px;
+    float: left;
+    position: relative;
+    top: -40px;
+    left: -5px;
+    border-radius: 8%;
+}
+/*Section activités*/
+#section_activites                                                 /*l'ensemble*/
+{                  
+    width: 96%;                                              
+    display: flex;
+    flex-wrap:wrap;
+    margin: auto;
+    border: 1px solid white;
+}
+#section_activites h2                                           /*titre*/
+{
+    width:100%;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.grande                                                                 /*colonne 1 et 3*/ 
+{
+    width: 20%;
+    height: 445px;
+    margin: auto;
+    border-radius: 8%;
+    box-shadow: 3px 3px 5px rgb(97,97,97);
+    overflow: hidden;
+}
+.grande figcaption                                  
+{
+    width: 200%;
+    height: 100px;
+    position: relative;
+    top: -75px;
+    left: -40px;
+    border: 1px solid white;                                /*texte port et calanques*/
+    background-color: white;
+}
+.img_grd                                                                /*image port et calanques*/ 
+{
+    width: 650px;
+    position: relative;
+    left: -220px;
+    top: -20px;
+}
+.petite                                                                 /*colonne 2 et 4*/
+{
+    width: 300px;
+    height: 445px;
+}
+.box_moyenne                                                        /*article Pomegues*/
+{
+    width: 300px;
+    height: 225px;
+    margin-bottom: 40px;
+    padding-bottom: 3%;
+    border-radius: 8%;
+    box-shadow: 3px 3px 5px rgb(97,97,97);
+    overflow: hidden;
+}
+#pomegues                                                               /*texte pomegues*/
+{
+    width: 300px;
+    height: 65px;
+    position: relative;
+    top: -300px;
+    left: -40px;
+    border: 1px solid white;
+    background-color: white;
+}
+.img_moyenne                                                            /*image pomegues*/
+{
+    width: 300px;
+    position: relative;
+    left: -40px;
+    top: -130px;
+}
+#frioul                                                         /*articles iles du frioul*/               
+{
+    width: 300px;
+    height: 165px;                                                                     
+    margin-bottom: 40px;
+    border-radius: 8%;
+    box-shadow: 3px 3px 5px rgb(97,97,97);
+    overflow: hidden;
+}
+#texte_frioul                                          /*texte iles du frioul*/
+{
+    width: 300px;
+    height: 65px;
+    position: relative;
+    top: -120px;
+    left: -40px;
+    border: 1px solid white;
+    background-color: white;
+}
+#img_frioul                                                               /*image iles du frioul*/ 
+{
+    width: 310px;
+    height: 200px;
+    position: relative;
+    top: -40px;
+    left: -45px;
+    border: 1px solid white;
+    background-color: white;
+}
+.box_intermediaire                                                              /*articles notre dame et longchamps*/
+{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 40px;
+    border-radius: 8%;
+    box-shadow: 3px 3px 5px rgb(97,97,97);
+    overflow: hidden;
+}
+.droite                                                                                 /*texte notre dame et longschamps*/
+{
+    width: 300px;
+    height: 65px;
+    position: relative;
+    top: -90px;
+    left: -40px;
+    border: 1px solid white;
+    background-color: white;
+}
+.img_droite                                                                 /*images notre dame et longchamp*/
+{
+    width: 310px;
+    height: 200px;
+    position: relative;
+    top: -25px;
+    left: -45px;
+    border: 1px solid white;
+    background-color: white;
+}
+p                                                                           /*texte pour tous*/
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/*Footer*/
+footer                                              /*le tout*/
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+    padding-bottom: 50px;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+}
+footer nav                                                 /*chaque partie*/
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 220px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+footer li                                           /*listes*/
+{
+    list-style-type: none;
+    line-height: 2;
+}
+ul                                                  /*la liste*/
+{
+    margin-top: 0%;
+    padding-left: 0%;
+}
