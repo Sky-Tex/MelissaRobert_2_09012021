@@ -12,19 +12,19 @@
         <nav id="banniere">
             <img src="img/Reservia.svg" alt="logo" id="logo">
             <ul id="menu">
-                <li><a href="#ancre_hebergements" class="groupe">Hébergements</a></li>
-                <li><a href="#ancre_activites" class="groupe">Activités</a></li>
-                <li><a href="#inscription" class="inscription">S'inscrire</a></li>
+                <li><a href="#ancre_hebergement" class="groupe">Hébergements</a></li>              <!--ancre hébergement-->
+                <li><a href="#ancre_activites" class="groupe">Activités</a></li>                   <!--ancre activité-->
+                <li><a id="inscription" href="lienverslapageinscriptions">S'inscrire</a></li>    <!--lien vers formulaire d'inscription-->
             </ul>
         </nav>
         <div id="titre">
-            <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+            <h1> Trouvez votre hébergement pour des vacances de rêve</h1>
             <p class="normal">En plein centre ville ou en pleine nature</p>
-            <div class="recherche">
+            <div id="recherche">
                 <i class="fa fa-map-marker" id="localisation"></i>
                 <form method="post" action="projet2.php">
-                    <input type="search" name="search" id="search" placeholder="Marseille, France" /><input type="submit" value="Rechercher" id="bouton" />
-                    <i class="fas fa-search" id="loupe">
+                    <input type="search" name="search" id="search" placeholder="Marseille,France" /><input type="submit" value="Rechercher" id="bouton" />      <!-- Bouton recherche -->
+                    <i class="fas fa-search" id="loupe"></i>
                 </form>
             </div>
         </div>
@@ -32,15 +32,15 @@
             <h2 class="titre">Filtres</h2>
             <nav>
                 <ul>
-                    <li><a href="economique"><i class="fas fa-money-bill-wave"></i>Économique</li>
-                    <li><a href="familial"><i class="fas fa-child"></i>Familial</li>
-                    <li><a href="romantique"><i class="fas fa-heart"></i>Romantique</li>
-                    <li><a href="animaux"><i class="fas fa-dog"></i>Animaux autorisés</li>
+                    <li><a href="economique"><i class="fas fa-money-bill-wave"></i>Economique</a></li>
+                    <li><a href="familial"><i class="fas fa-child"></i>Familial</a></li>
+                    <li><a href="romantique"><i class="fas fa-heart"></i>Romantique</a></li>
+                    <li><a href="animaux"><i class="fas fa-dog"></i>Animaux autorisés</a></li>
                 </ul>
             </nav>
         </div>
         <div id="info">
-            <i class="fas fa-info-circle"></i>
+            <i class="fas fa-info-circle"></i>                     <!--logo i info-->
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
     </header>
