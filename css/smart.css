@@ -1,0 +1,142 @@
+@media screen and (max-width:740px) and (min-width:320px) {
+    
+    body {
+    margin: 0;
+}
+
+  .header-title, .filter-container, .information, .logo {
+    margin: 15px;
+}
+
+#banniere {
+    width: 100%;
+    display: flex;
+    flex-flow:row wrap;
+}
+
+#banniere a {
+    width: 50%;
+    text-align: center;
+    border-bottom: 3px solid #F2F2F2;
+}
+
+#banniere a:hover {
+    border-bottom: 3px solid #0065FC;
+    border-top: none;
+}
+
+.search_submit {
+    display: none;
+}
+
+.search_icon {
+    visibility: visible;
+}
+
+.information > p {
+    font-size: 1em;
+}
+
+.content{
+    order: 2;
+    width: 100%;
+    background: white;
+    flex-flow: row wrap;
+    padding: 0;
+}
+
+.filter-container {
+    flex-wrap: wrap;
+}
+
+.btn {
+    margin-top: 5px;
+}
+
+.filter-container h3 {
+    width: 100%;
+}
+
+.flexbox h2 {
+    font-size: 2em;
+}
+
+.flex-container {
+    width: 100%;
+    height: 170px;
+    margin-bottom: 10px;
+}
+
+.flex-container p, .flex-container h4{
+    font-size: 1em;
+}
+
+.flex-container img {    
+    height: 100px;
+    border-radius: 15px 15px 0 0;
+}
+
+.afficher {
+    margin-left: 10px;
+}
+
+.fa-star {
+    font-size: 0.8em;
+}
+
+.content_populaire {
+    width: 100%;
+    order: 1;
+    border-radius: 0
+}
+
+.populaire_content {
+    width: 50%;
+}
+
+.populaire_content h4 {
+    font-size: 1em;
+}
+
+.populaire_content p {
+    font-size: 0.7em;
+}
+
+.icone_star {
+    height: 30px;
+    padding-left: 5px;
+}
+  
+.content_activites {
+    order: 3;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.big, .little {
+    height: 170px;
+}
+
+.big img {
+    height: 85%;
+}
+
+.big h4, .little h4 {
+    margin: 2px;
+    font-size: 1em;
+}
+    
+footer {
+    flex-direction: column;
+    bottom: auto;
+}
+
+.footer_elmt {
+    width: 100%;
+}
+}

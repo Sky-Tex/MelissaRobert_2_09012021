@@ -1,0 +1,103 @@
+@media screen and (max-width:1024px) and (min-width: 900px) {
+    
+    body {
+        margin: 0;
+    }
+    
+      #banniere {
+        display: flex;
+        flex-flow:row wrap;
+    }
+    
+    .header-title, .filter-container, .information, object, .logo {
+        margin: 15px;
+    }
+    
+    #banniere a {
+        text-align: center;
+    }
+    
+    .flexbox {
+        flex-flow: wrap;
+        flex-grow: 1;
+    }
+    
+    .content{
+        order: 2;
+        width: 100%;
+        margin-top: 15px;
+        background: white;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    .flex-container {
+        width: 45%;
+    }
+    
+    .flex-container img {        
+        border-radius: 15px 15px 0 0;
+    }
+    
+    .afficher {
+        margin-left: 10px;
+    }
+        
+    .content_populaire {
+        width: 100%;
+        order: 1;
+        flex-direction: row;
+        border-radius: 0;
+    }
+    
+    .populaire_content h4 {
+        font-size: 0.9em;
+    }
+    
+    .populaire_content p {
+        font-size: 0.8em;
+    }
+    
+    .populaire_content {
+        padding-left: 9px;
+        height: 79%;
+    }
+    
+    .flex-container_populaire {
+        width: 30%;
+    }
+    
+    .flex-container_populaire > img  {
+    object-fit: cover;
+    height: 130px;
+    width: 35%;
+    border-radius: 15px 0 0 15px;
+}
+
+     .content_activites {
+        order: 3;
+        width: 100%;
+    }
+    
+    .content_activites img {
+        height: 87%;
+    }
+    
+    .container {
+        width: 100%;
+    }
+    
+    .big {
+        height: 300px;
+    }
+    
+    .little {
+        height: 300px;
+    }
+    
+        
+    footer {
+        display: flex;
+        flex-direction: row;
+    }
+}

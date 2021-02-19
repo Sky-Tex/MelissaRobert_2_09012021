@@ -1,0 +1,90 @@
+@media screen and (max-width:900px) and (min-width: 741px) {
+    body {
+    margin: 0;
+}
+
+.header-title, .filter-container, .information, .logo {
+    margin: 15px;
+}
+
+#banniere {
+    display: flex;
+    flex-flow:row wrap;
+}
+
+#banniere a {
+    text-align: center;
+}
+
+.flexbox {
+    flex-flow: wrap;
+    flex-grow: 1;
+}
+
+.flexbox h2 {
+    margin-bottom: 10px;
+}
+    
+.content{
+    order: 2;
+    width: 100%;
+    margin-top: 15px;
+    background: white;
+    flex-flow: row wrap;
+}
+
+.flex-container {
+    width: 47%;
+    margin-bottom: 10px;
+}
+
+.flex-container img {        
+    border-radius: 15px 15px 0 0;
+}
+
+.afficher {
+    margin-left: 0;
+}
+
+.content_populaire {
+    width: 100%;
+    order: 1;
+    border-radius: 0;
+}
+
+.populaire_content {
+    width: 50%;
+}
+
+.icone_star {
+    height: 30px;
+}
+    
+.content_activites {
+    order: 3;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.big, .little {
+    height: 300px;
+}
+
+.big img {
+    height: 85%;
+}
+
+.big h4, .little h4 {
+    margin: 5px auto;
+}
+    
+footer {
+    bottom: auto;
+}
+}
