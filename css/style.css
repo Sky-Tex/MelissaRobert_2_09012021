@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-* 
-{
-    font-family: 'Raleway', sans-serif;
-}
+
 
 /* -------------------Définition de la taille du site--------------------------- */
 
@@ -15,28 +12,35 @@ body {
     margin: 0 15px 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1 {
     font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
 }
 
 h3 {
-    font-size: 1em
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
 }
 
 a, a:visited {
     text-decoration: none;
     color: black;
+    font-family: 'Raleway', sans-serif;
 }
 
 a:hover {
     text-decoration: underline;
+    font-family: 'Raleway', sans-serif;
 }
 
 li {
     list-style-type: none;
+    font-family: 'Raleway', sans-serif;
 }
+
 /* -------------------HEADER--------------------------*/
 
 header {
@@ -99,6 +103,7 @@ header a
     font-weight: bold;
     color: #0065FC;
 }
+
 /* -------------------------SEARCH BAR--------------------*/
 
 .header-title {
@@ -205,8 +210,8 @@ form > button:active {
 }
 
 .btn > .icone {
-    top: -1px;
-    left: -1px;
+    top: 1px;
+    left: 1px;
     width: 16px;
     text-align: center;
     font-size: 1.25em;
@@ -232,7 +237,7 @@ form > button:active {
 .icon-info {                                  
     margin-left: 50px;
     color:#0065FC;
-    font-size: 15px;
+    font-size: 1em;
 }
 
 /*-------------------FLEXBOX-------------------------*/
