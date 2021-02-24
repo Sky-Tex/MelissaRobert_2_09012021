@@ -5,6 +5,7 @@
 
 .header-title, .filter-container, .information, .logo {
     margin: 15px;
+    flex-wrap: wrap;
 }
 
 #banniere {
