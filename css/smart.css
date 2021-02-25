@@ -5,7 +5,7 @@
 }
 
   .header-title, .filter-container, .information, .logo {
-    margin: 15px;
+    flex-wrap: wrap;
 }
 
 #banniere {
@@ -24,6 +24,20 @@
     border-bottom: 3px solid #0065FC;
     border-top: none;
 }
+
+#menu {
+    width: 100%;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+#menu li
+    {
+        display: inline-block;
+        width: 33.3%;
+        text-align: center;
+    }
 
 .search_submit {
     display: none;
@@ -47,6 +61,7 @@
 
 .filter-container {
     flex-wrap: wrap;
+    font-size: 1em;
 }
 
 .btn {
