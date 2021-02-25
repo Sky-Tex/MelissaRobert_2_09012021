@@ -18,6 +18,7 @@
     width: 50%;
     text-align: center;
     border-bottom: 3px solid #F2F2F2;
+    font-size: 0.8em;
 }
 
 #banniere a:hover {
@@ -34,9 +35,16 @@
 
 #menu li
     {
-        display: inline-block;
         width: 33.3%;
         text-align: center;
+    }
+
+    #menu ul
+    {
+        width: 100%;
+    position: relative;
+    flex-wrap: nowrap;
+    align-items: center;
     }
 
 .search_submit {
