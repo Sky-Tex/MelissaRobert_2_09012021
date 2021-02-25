@@ -8,11 +8,7 @@
         display: flex;
         flex-flow:row wrap;
     }
-    
-    .header-title, .filter-container, .information, object, .logo {
-        margin: 15px;
-    }
-    
+      
     #banniere a {
         text-align: center;
     }
