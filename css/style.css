@@ -234,7 +234,8 @@ form > button:active {
     font-size: 0.9em;
 }
 
-.icon-info {                                  
+.icon-info { 
+    margin: 10px;                                 
     color:#0065FC;
     font-size: 1em;
 }
