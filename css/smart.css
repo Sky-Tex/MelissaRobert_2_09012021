@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-  .header-title, .filter-container, .information, .logo {
+  .header-title, .filter-container, .logo {
     flex-wrap: wrap;
 }
 
@@ -33,19 +33,17 @@
     flex-direction: row;
 }
 
-#menu li
-    {
-        width: 33.3%;
-        text-align: center;
-    }
+#menu li {
+    width: 33.3%;
+    text-align: center;
+}
 
-    #menu ul
-    {
-        width: 100%;
+#menu ul{
+    width: 100%;
     position: relative;
     flex-wrap: nowrap;
     align-items: center;
-    }
+}
 
 .search_submit {
     display: none;
