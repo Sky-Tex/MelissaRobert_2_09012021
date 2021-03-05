@@ -9,6 +9,10 @@
     flex-wrap: wrap;
 }
 
+h2 {
+    padding-left: 1vh;
+}
+
 #banniere {
     width: 100%;
     display: flex;
@@ -85,7 +89,7 @@ form{
 }
 
 .flexbox h2 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .flex-container {
